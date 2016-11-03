@@ -1,0 +1,109 @@
+/* background image is fixed when scrolling, and it does not repeat
+also, the font family is set to sans-serif as stated in guidelines */
+body {
+  background-image: url("http://static1.squarespace.com/static/53516aa2e4b073dfbc7c8acf/t/541b194fe4b0c4ad91bbe577/1411062095575/WATERCOLOR.jpg");
+  background-attachment: fixed;
+  font-family: sans-serif;
+  margin: 3%;
+}
+
+h1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 6px;
+  line-height: 1;
+  font-size: 68px;
+}
+
+h3 {
+  letter-spacing: 2px;
+}
+
+h4 {
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+table {
+  border: 0px;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  height: 40px;
+  text-align: center;
+}
+
+tbody {
+  font-size: 13px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #FFECE6;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #D9D9D9;
+}
+
+ul, ol {
+  font-size: 14px;
+}
+
+td {
+  text-align: center;
+}
+
+/* span will set these words bold and to the color red:
+Georgia State University, Computer Science, family, shopping */
+span {
+  color: red;
+  font-weight: bold;
+}
+
+/* links will be set to the specified color and there will be no underlines*/
+a {
+  text-decoration: none;
+  color: #FB7D7D
+}
+
+/* when you hover over a link, it will change the color to white*/
+a:hover {
+  color: #FFFFFF;
+}
+
+#links {
+  text-align: center;
+}
+
+.information {
+  margin: auto;
+  padding: 10px;
+}
+
+.section {
+  float: left;
+  text-align: left;
+}
+
+.last-section {
+  position: absolute;
+  bottom: 0;
+}
